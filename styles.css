@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 :root {
   --main-white: hsl(0, 0%, 100%);
   --main-Light-gray: hsl(212, 45%, 89%);
@@ -21,7 +21,11 @@ body {
   background-color: var(--main-white);
   width: 17rem;
   height: 25rem;
-  margin: 6rem auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12.5rem;
+  margin-left: -8.5rem;
   border-radius: 15px;
 }
 .card-img {
